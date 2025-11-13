@@ -23,7 +23,7 @@ steps:
     - 'orders-ms=northamerica-northeast1-docker.pkg.dev/tienda-microservices-477504/image-registry/orders-ms:$SHORT_SHA'
   env:
     - 'CLOUDSDK_COMPUTE_REGION=northamerica-northeast1'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=tienda-cluster'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=tienda-kubernets'
 
 availableSecrets:
   secretManager:
